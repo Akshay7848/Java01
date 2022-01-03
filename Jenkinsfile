@@ -11,7 +11,7 @@ pipeline{
     }
       stage('test calling'){
         steps{
-        sh 'echo "this is for calling test"' ;sleep5
+        sh 'echo "this is for calling test"' 
         }
       }
         stage('test display'){
