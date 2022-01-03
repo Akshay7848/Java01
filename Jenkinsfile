@@ -22,6 +22,11 @@ pipeline{
             ''' 
           } 
       }
+    stage('test wifi'){
+      steps{
+            sh 'echo " this test for wifi"'
+      }
+    }
     stage('deploy'){
       steps{
           sh ' echo " Final stages is deployed" '
