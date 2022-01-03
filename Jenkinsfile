@@ -5,13 +5,13 @@ pipeline{
       steps{
            sh '''
            #! /bin/bash 
-           echo "this is the first step to bulid" sleep 5;
+           echo "this is the first step to bulid" sleep5;
            '''
       }
     }
       stage('test calling'){
         steps{
-        sh 'echo "this is for calling test"' sleep 5;
+        sh 'echo "this is for calling test"' sleep5;
         }
       }
         stage('test display'){
